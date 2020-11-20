@@ -41,9 +41,3 @@ def conversion(number):
         res = res+" "+convert_less_or_equal_thousand(reste)
     return res+ " "+ frs_cfa
 
-print(conversion(10))
-print(conversion(17))
-print(conversion(100))
-print(conversion(532))
-print(conversion(1000))
-print(conversion(2347))
